@@ -1,64 +1,35 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# sayaka310_app
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## アプリの概要
+- おくすりを検索できるアプリです
+- 薬の名前、薬剤カテゴリーから検索ができます
+- 薬剤の名前、成分名、薬剤カテゴリー、用法・容量、効能・効果がわかります
 
-## About Laravel
+## テーブル定義
+- 【ドラッグテーブル】  薬の情報を格納
+- 【カテゴリーテーブル】 主要な薬剤カテゴリー9種を格納
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 実装機能
+- 薬剤情報のCRUD機能
+- 薬剤カテゴリー、薬剤名からの検索機能
+- ヘッダーに新規登録ボタン実装
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 今後の改善点
+- 新規登録、編集画面での画像アップロード機能実装
+- 新規登録、編集画面へのBootstrapの適応
+- バリデーションの実装
+- 外部販売サイトAPIの実装
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[CMS Max](https://www.cmsmax.com/)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## 画面
+### おくすり一覧画面
+<img width="1440" alt="スクリーンショット 2021-10-07 14 11 00" src="https://user-images.githubusercontent.com/89469673/136324116-b36dd5f0-8aed-493f-9f3e-e17c9ac37aff.png">
+### おくすり詳細画面
+<img width="1440" alt="スクリーンショット 2021-10-07 14 11 11" src="https://user-images.githubusercontent.com/89469673/136324206-2f049f0e-2171-4d22-80ad-f6b9ad539d13.png">
+### おくすり修正画面
+<img width="1440" alt="スクリーンショット 2021-10-07 14 11 36" src="https://user-images.githubusercontent.com/89469673/136324265-3c4695eb-ddb0-4b3f-bf9e-1e6dbc279f9f.png">
+### おくすり登録画面
+<img width="1440" alt="スクリーンショット 2021-10-07 14 11 58" src="https://user-images.githubusercontent.com/89469673/136324328-937ce4cc-f962-442e-aa39-f5e2bcd97055.png">
+### カテゴリー検索
+<img width="1440" alt="スクリーンショット 2021-10-07 14 14 11" src="https://user-images.githubusercontent.com/89469673/136324476-80456123-1f32-49bf-bc41-6b561ce15854.png">
+### 名前検索
+<img width="1440" alt="スクリーンショット 2021-10-07 14 14 11" src="https://user-images.githubusercontent.com/89469673/136324605-2522b735-9e72-4452-9bad-9eea93a9f2c1.png">
