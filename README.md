@@ -32,4 +32,5 @@
 ### カテゴリー検索
 <img width="1440" alt="スクリーンショット 2021-10-07 14 14 11" src="https://user-images.githubusercontent.com/89469673/136324476-80456123-1f32-49bf-bc41-6b561ce15854.png">
 ### 名前検索
-<img width="1440" alt="スクリーンショット 2021-10-07 14 14 11" src="https://user-images.githubusercontent.com/89469673/136324605-2522b735-9e72-4452-9bad-9eea93a9f2c1.png">
+<img width="1440" alt="スクリーンショット 2021-10-07 14 21 14" src="https://user-images.githubusercontent.com/89469673/136326011-7cc73705-ec8c-4fa3-ac52-31e81a824c39.png">
+
