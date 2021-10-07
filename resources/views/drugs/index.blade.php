@@ -3,7 +3,7 @@
 @section('title', '一覧画面')
 
 @section('content')
-    @if (!empty($drugs))
+    @if ($drugs)
         <ul>
             @foreach ($drugs as $drug)
                 <li class="list-unstyled border mb-5 pl-3 shadow">

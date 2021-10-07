@@ -29,6 +29,6 @@
             </tr>
         </tbody>
     </table>
-        <a href="{{ route('drugs.edit', $drug) }}">おくすり修正</a><br>
-        <a href="{{ route('drugs.index') }}">戻る</a>
+    <a href="{{ route('drugs.edit', $drug) }}">おくすり修正</a><br>
+    <a href="{{ route('drugs.index') }}">戻る</a>
 @endsection
